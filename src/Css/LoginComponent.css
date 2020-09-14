@@ -1,0 +1,36 @@
+.AppBar {
+    flex-grow: 1;
+    background-color: darkseagreen;
+}
+
+.cartLogo {
+    width: 250px;
+    padding-right: 300px;
+    /* flex-grow: 0.5; */
+}
+
+.title {
+    flex-grow: 0.2;
+}
+
+.search {
+    display: inline-flex;
+}
+
+.inputInput {
+    width: 130px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 0.1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.inputInput :focus {
+    width: 100%;
+}
