@@ -1,0 +1,41 @@
+.main-navBar {
+  position: relative;
+  display: inline-block;
+  flex-grow: inherit;
+  width: 100%;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+  padding-left: 40px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav-bar {
+  display: flex;
+  flex-grow: inherit;
+  width: 100%;
+  background-color: white;
+}
+/* .nav-link {
+  flex-direction: column;
+  padding-left: 10px;
+  margin-bottom: 0;
+  list-style: none;
+  display: block;
+  padding: 0.5rem 1rem;
+} */
+
+.nav-link-search {
+  display: flex;
+  flex-grow: inherit;
+  position: absolute;
+  left: 600px;
+}

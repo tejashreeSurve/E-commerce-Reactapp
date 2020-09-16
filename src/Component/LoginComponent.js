@@ -1,8 +1,14 @@
 import React from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import { AppBar, Typography, Toolbar } from "@material-ui/core";
-import SearchIcon from "@material-ui/icons/Search";
+
+import {
+  AppBar,
+  Typography,
+  Toolbar,
+  Breadcrumbs,
+  Link,
+  ButtonBase,
+} from "@material-ui/core";
 import InputBase from "@material-ui/core/InputBase";
 import "../Css/LoginComponent.css";
 import logo from "../Assets/logo.png";
@@ -11,7 +17,6 @@ const LoginComponent = (props) => {
     <div className="AppBar">
       <AppBar position="static" color="secondry">
         <Toolbar variant="dense">
-          {/* <ShoppingCartIcon className="cartLogo" /> */}
           <img src={logo} className="cartLogo"></img>
           <Typography className="title" variant="h6" nowrap>
             Home
@@ -26,9 +31,9 @@ const LoginComponent = (props) => {
             Contact
           </Typography>
           <div className="search">
-            <div className="searchIcon">
+            {/* <div className="searchIcon">
               <SearchIcon />
-            </div>
+            </div> */}
             <div>
               <InputBase
                 placeholder="Search"
