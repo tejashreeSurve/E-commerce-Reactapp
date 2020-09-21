@@ -5,37 +5,157 @@
   width: 100%;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: -142px;
+}
+
+/* 
+.main-navBar:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .main-navBar:after {
+  height: 142px;
+} */
+
+.site-footer {
+  background: black;
+  position: absolute;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 60px;
 }
 
 .logo {
   padding-left: 40px;
 }
 
+.nav-link {
+  flex-direction: row;
+  display: inline;
+  padding: 30px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.search-bar {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* 
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+/* Style the submit button */
+
+.from-button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
 .navbar-nav {
   display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+  flex-direction: row;
 }
+
+.nav-link-search {
+  display: flex;
+  flex-direction: row;
+}
+
 .nav-bar {
   display: flex;
   flex-grow: inherit;
   width: 100%;
   background-color: white;
 }
-/* .nav-link {
-  flex-direction: column;
-  padding-left: 10px;
-  margin-bottom: 0;
-  list-style: none;
-  display: block;
-  padding: 0.5rem 1rem;
-} */
 
-.nav-link-search {
+.nav-link-bar-div {
+  margin-right: 50px;
+}
+
+.nav-link-tag {
+  padding-right: 50px;
+}
+
+/*Card Deck*/
+
+.card-deck {
   display: flex;
-  flex-grow: inherit;
-  position: absolute;
-  left: 600px;
+  margin: 10px;
+  height: 200px;
+  padding-bottom: 30px;
+}
+
+.card {
+  border: 1px;
+  flex: 1 1 auto;
+  height: 40%;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-img-overlay {
+  display: flex;
+  align-items: center;
+}
+
+/*Footer*/
+
+.footer {
+  /* position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center; */
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background: grey;
+}
+
+.cart-nav-link {
+  font-size: 40px;
+}
+
+.custom {
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: "#00AFD7";
+  color: "white";
 }

@@ -4,7 +4,13 @@ export const initialState = {
   userEmailError: "",
   passwordError: "",
   loginButton: false,
+  womenProduct: [],
+  menProduct: [],
   userdetails: {},
+  chooseOption: [],
+  chooseProduct: {},
+  noOfItems: 0,
+  cartList: [],
 };
 const LoginReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -18,8 +24,20 @@ const LoginReducer = (state = initialState, action) => {
       return { ...state, passwordError: action.payload };
     case "SET_LOGINBUTTON":
       return { ...state, loginButton: action.payload };
+    case "SET_WOMENPRODUCTLIST":
+      return { ...state, womenProduct: action.payload };
+    case "SET_MENPRODUCTLIST":
+      return { ...state, menProduct: action.payload };
     case "SET_USERDETAILS":
       return { ...state, userdetails: action.payload };
+    case "SET_CHOOSEOPTION":
+      return { ...state, chooseOption: action.payload };
+    case "SET_CHOOSEPRODUCT":
+      return { ...state, chooseProduct: action.payload };
+    case "SET_NOOFITEMS":
+      return { ...state, noOfItems: action.payload };
+    case "SET_CARTLIST":
+      return { ...state, cartList: [...state.cartList, action.payload] };
     default:
       return state;
   }

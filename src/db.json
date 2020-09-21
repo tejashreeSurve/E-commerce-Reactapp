@@ -32,5 +32,129 @@
       "gender": "Male",
       "status": "Active"
     }
+  ],
+  "womenproduct": [
+    {
+      "pId": 1,
+      "pImage": "https://rukminim1.flixcart.com/image/612/612/jtn9bww0/top/c/z/p/m-3245-vaanya-original-imafcwcyguwegbgm.jpeg?q=70",
+      "pName": "VAANYA Casual Bell Sleeve Solid Women Pink Top",
+      "pPrice": "340 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 2,
+      "pImage": "https://rukminim1.flixcart.com/image/612/612/k4hcjgw0pkrrdj/top/x/v/g/m-nvaanyatop-34-vaanya-nvaanyatop-34-m-original-imaffxyyzsvj5zge.jpeg?q=70",
+      "pName": "VAANYA Casual Half Sleeve Solid Women Black Top",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 3,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k3xcdjk0pkrrdj/top/s/b/5/xs-mt53-oomph-mt53xs-original-imaf98tnc78nhhy3.jpeg?q=70",
+      "pName": "OOMPH! Women's Crepe Tunic Top - Hickory Brown",
+      "pPrice": "450 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 4,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k3xcdjk0pkrrdj/top/p/q/j/xs-mt18-oomph-mt18xs-original-imaf96hygbfcs595.jpeg?q=70",
+      "pName": "OOMPH! Women's Crepe Tunic Top - Navy Blue",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 5,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k4rcmfk0pkrrdj/top/x/b/8/m-top6-ethnic-4-you-top6-m-original-imafnhherhsxxggr.jpeg?q=70",
+      "pName": "Ethnic 4 You White & Black Color American crepe Casual Tops for Women6",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 6,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/kcjexe80pkrrdj/clothing-accesories/q/g/z/womens-top-c-c-clothing-original-imaftn5wrgpsdcfh.jpeg?q=70",
+      "pName": "CHAUHAN TOP COTTON 100",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 7,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k3xcdjk0pkrrdj/top/k/s/t/xxl-mt97-oomph-mt97xxl-original-imafmgd9sbmcyg8h.jpeg?q=70",
+      "pName": "OOMPH! Women's Crepe Off Shoulder Top - Eggshell White",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 8,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k3xcdjk0pkrrdj/top/x/n/g/l-mt52-oomph-mt52l-original-imaf98tz9fbbgvgt.jpeg?q=70",
+      "pName": "OOMPH! Women's Crepe Tunic Top - Mustard Yellow",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 9,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k2tc1ow0pkrrdj/top/3/2/x/m-1874-buynewtrend-original-imaf3kj5vsseeugt.jpeg?q=70",
+      "pName": "BuyNewTrend Navy Bell Sleeve Crepe Top For Women",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 10,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k7531jk0/top/h/a/g/xl-antop-41-black-killer-original-imafpfebmmut6brj.jpeg?q=70",
+      "pName": "VAANYA Casual 3/4 Sleeve Printed Women Multicolor Top",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 11,
+      "pImage": "https://rukminim1.flixcart.com/image/612/612/k3ncakw0pkrrdj/top/w/j/m/xl-mt13-oomph-original-imaf7xthhwuuzey3.jpeg?q=70",
+      "pName": "OOMPH! Women's Crepe Tunic Top - Scarlet Red",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+
+    {
+      "pId": 12,
+      "pImage": "https://rukminim1.flixcart.com/image/612/612/k7531jk0/top/4/3/e/xl-antop-08-vaanya-original-imafpfkquhnrycfh.jpeg?q=70",
+      "pName": "VAANYA Casual Sleeveless Printed Women Multicolor Top",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    }
+  ],
+  "menproduct": [
+    {
+      "pId": 1,
+      "pImage": "https://rukminim1.flixcart.com/image/612/612/k6dxocw0/t-shirt/g/n/q/xxl-230-scatchite-original-imafzu7ntr7pczft.jpeg?q=70",
+      "pName": "SCATCHITE Men's Hooded Full Sleeve Stylish Casual T-Shirts",
+      "pPrice": "499 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 2,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k4lmv0w0/t-shirt/t/g/g/m-t-225-scatchite-original-imafnh92hmz3w8zm.jpeg?q=70",
+      "pName": "SCATCHITE Men's Hooded Full Sleeve Stylish Casual T-Shirts",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 3,
+      "pImage": "https://rukminim1.flixcart.com/image/612/612/k0bbb0w0pkrrdj/shirt/f/a/f/l-trendy-half-sleeve-2t-pearl-ocean-original-imafk9cfrxqggv5e.jpeg?q=70",
+      "pName": "Trendy Half Sleeve Shirt For Men",
+      "pPrice": "450 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 4,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/k0igia80/t-shirt/6/d/r/s-lb0950-le-bourgeois-original-imafk9ymc4eb5vxq.jpeg?q=70",
+      "pName": "Le Bourgeois Men Blue Stripe Round Neck T Shirt",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    },
+    {
+      "pId": 5,
+      "pImage": "https://rukminim1.flixcart.com/image/832/832/kc0u7bk0/t-shirt/g/n/f/l-lb1023-le-bourgeois-original-imaft8ghbdnge3sn.jpeg?q=70",
+      "pName": "Men Maroon Solid Round Neck Full Sleeve T-Shirt",
+      "pPrice": "400 Rs",
+      "pColor": "Black,Red,Yellow"
+    }
   ]
 }
